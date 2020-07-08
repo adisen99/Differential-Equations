@@ -57,7 +57,7 @@ plt.plot(x, y, '-bo', label = 'Function')
 plt.plot(x, df(x,y), '-gD', label = 'Derivative')
 plt.xlabel('Value of x')
 plt.ylabel('Value of y')
-plt.title('Approximate Solution with Forward Euler’s Method')
+plt.title('Approximate Solution with Runge-Kutta Method') 
 plt.legend()
 plt.show()
 

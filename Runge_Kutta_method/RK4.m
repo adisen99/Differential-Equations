@@ -38,4 +38,4 @@ T = array2table(transpose(V),...
 
 % Plot the curve
 plot(x,y)
-title('Euler Method')
+title('Runge-Kutta Method')
