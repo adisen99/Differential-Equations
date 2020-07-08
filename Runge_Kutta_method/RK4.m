@@ -30,8 +30,12 @@ for i = 1:n
 end;
 
 % Gather the data
-V = [x',y']
+V = [x;y];
+
+%Make Table
+T = array2table(transpose(V),... 
+    'VariableNames', {'x_values', 'y_values'})
 
 % Plot the curve
 plot(x,y)
-title(' Euler Method')
+title('Euler Method')
